@@ -1,14 +1,12 @@
 import React from 'react';
+import Gameform from './game-form.js';
 import './Game.css';
 
 export default function Game() {
 return (
   <section className="game">
     <h2 id="feedback">Make Your Guess!!</h2>
-      <form>
-        <input type="text" name="userGuess" id="userGuess" className="text" maxlength="3" autocomplete="off" placeholder="Enter your Guess" required=""/>
-        <input type="submit" id="guessButton" className="button" name="submit" value="Guess"/>
-      </form>
+      <Gameform />
       <p>
           Guess # 
           <span id="count">0</span>
