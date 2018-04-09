@@ -2,7 +2,7 @@ import React from 'react';
 import Gameform from './game-form.js';
 import Guesscounter from './guess-counter.js';
 import Guesslist from './guess-list.js'
-import './Game.css';
+import './game.css';
 
 export default function Game() {
 return (

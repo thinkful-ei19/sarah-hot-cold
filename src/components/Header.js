@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from './navbar';
 import Overlay from './overlay'
-import './Header.css';
+import './header.css';
 
 export default function Header(){
   return (
